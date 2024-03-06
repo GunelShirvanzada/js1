@@ -145,8 +145,41 @@
 // }
 // console.log(newStr);
 
+//? vurma cedveli 
 
-// let num = [1,2,3,4,5,6,7,8,9,10]
-// for(let i=0; i<=10; i++){
-//     console.log(num[i]);
+// for (let i = 1; i <= 10; i++) {
+//     for (let v = 1; v <= 10; v++) {
+//         console.log(i + 'x' + v + '=' + (i * v))
+//     }  
+//     console.log('----------------------');
 // }
+
+// ? faktorial
+
+// let num = +prompt('Bir rəqəm yaz.');
+// let multi = 1;
+// for(let i=1; i<=num; i++){
+//     multi=multi*i;
+// }
+// alert('Nəticə: '+multi);
+
+// ? cem
+
+// let num = [1,2,3,4,5,6,7,8,9,10];
+// let sum = 0;
+// for(let i=0; i<num.length; i++){
+//     sum=sum+num[i];
+// }
+// console.log(`Cəmi: ${sum}`);
+
+// ? ededi orta
+
+// let num = [1,2,3,4,5,6,7,8,9,10];
+// let sum = 0;
+// for(let i=0; i<num.length; i++){
+//     sum=sum+num[i];
+// }
+// let average = sum/num.length;
+// console.log(`Ədədi ortası: ${average}`);
+
+// ! polindrom
